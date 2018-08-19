@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7c3a771bfb3cb5f271b23f7ed060ec8f7b6b8135842c7a8b5ce7c8166d1fe0fe"
+            "sha256": "8c94ad6bc56327cc4b9b3b61bee788cc0fc6069b7944b06dddfae9c26b549a24"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -232,6 +232,19 @@
                 "sha256:832dc0e10feb1aa2c68dcc57dbb658f1c7e65b9b61af69048abc87a2db00a0eb"
             ],
             "version": "==1.11.0"
+        },
+        "uwsgi": {
+            "hashes": [
+                "sha256:d2318235c74665a60021a4fc7770e9c2756f9fc07de7b8c22805efe85b5ab277"
+            ],
+            "version": "==2.0.17.1"
+        },
+        "waitress": {
+            "hashes": [
+                "sha256:40b0f297a7f3af61fbfbdc67e59090c70dc150a1601c39ecc9f5f1d283fb931b",
+                "sha256:d33cd3d62426c0f1b3cd84ee3d65779c7003aae3fc060dee60524d10a57f05a9"
+            ],
+            "version": "==1.1.0"
         },
         "werkzeug": {
             "hashes": [
