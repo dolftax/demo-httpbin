@@ -52,6 +52,11 @@ from .helpers import (
 from .utils import weighted_choice
 from .structures import CaseInsensitiveDict
 
+if os.environ.get('ENABLE_BEACON'):
+    import beacon
+    project_root = os.path.dirname(os.path.dirname(__file__))
+    beacon.init(project_root=project_root, dsn='beacon.deepsource.xyz:80')
+
 with open(
     os.path.join(os.path.realpath(os.path.dirname(__file__)), "VERSION")
 ) as version_file:

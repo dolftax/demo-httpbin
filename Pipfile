@@ -13,6 +13,7 @@ werkzeug = ">=0.14.1"
 six = "*"
 flasgger = "*"
 pyyaml = {git = "https://github.com/yaml/pyyaml.git"}
+beacon = {git = "ssh://git@bitbucket.org/deepsourcelabs/beacon-py.git"}
 
 [dev-packages]
 rope = "*"
