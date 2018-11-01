@@ -1,5 +1,12 @@
 version = 1
 
+exclude_patterns = [
+  "tests/",
+  "bin/*",
+  "**/node_modules/",
+  "js/*/*.min.js"
+]
+
 [[analyzers]]
 name = "python"
 enabled = true
